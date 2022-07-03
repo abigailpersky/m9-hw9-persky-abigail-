@@ -131,3 +131,16 @@ footer {
   padding: 24px 0;
   color: var(--off-white);
 }
+
+@media screen and (max-width:480px) and (orientation: landscape) {
+  img{
+    width:100%;
+  }
+  .article{
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  header a{
+    orientation: center;
+  }
+}
